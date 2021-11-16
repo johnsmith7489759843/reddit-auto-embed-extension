@@ -1,0 +1,17 @@
+{
+    "name": "Redgif Auto-Embed for Reddit",
+    "description": "Automatically embed redgif gifs on the Reddit frontpage",
+    "version": "1.0",
+    "manifest_version": 3,
+    "background": {
+        "service_worker": "background.js"
+    },
+    "content_scripts": [
+        {
+            "matches": ["https://*.reddit.com/"],
+            "js": ["./content-script.js"]
+        }
+    ],
+    "permissions": ["storage"],
+    "host_permissions": ["https://www.redgifs.com/"]
+}

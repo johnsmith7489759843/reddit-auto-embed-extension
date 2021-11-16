@@ -1,2 +1,2 @@
-# reddit-redgifs-embed-extension
-Automatically embed redgif gifs on the front page of Reddit
+# reddit-auto-embed-extension
+Automatically embed (autoplay and unmute) Imgur and Redgif videos on the Reddit Frontpage.
